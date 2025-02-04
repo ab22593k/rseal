@@ -1,0 +1,17 @@
+[package]
+name = "rseal"
+version = "0.1.0"
+edition = "2021"
+authors = ["Abelwahab <ab22593k@gmail.com>"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/ab22593k/rseal"
+documentation = "https://docs.rs/rseal"
+keywords = ["linux", "syscall", "memory", "sealing", "security"]
+categories = ["api-bindings", "memory-management"]
+description = "Memory sealing operations"
+readme = "README.md"
+
+[dependencies]
+errno = "0.3.10"
+libc = "0.2.169"
+thiserror = "2.0.11"
